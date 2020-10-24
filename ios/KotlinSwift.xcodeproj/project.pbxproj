@@ -9,16 +9,13 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* KotlinSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KotlinSwiftTests.m */; };
 		032B500AB84ED02640ADD347 /* libPods-KotlinSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1931AA7863D532304EC2CC8 /* libPods-KotlinSwift.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* KotlinSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KotlinSwiftTests.m */; };
 		2FA593766202C5A17206F7E7 /* libPods-KotlinSwift-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A187C22E147099925B3CC43 /* libPods-KotlinSwift-tvOSTests.a */; };
 		3A137039C182024BBEC5A1F5 /* libPods-KotlinSwift-KotlinSwiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E84996EF2FA40C071B0877 /* libPods-KotlinSwift-KotlinSwiftTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8394822825448B5B00A462AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8394822725448B5B00A462AE /* AppDelegate.swift */; };
 		B864E8B2CBB6C67C5580AF70 /* libPods-KotlinSwift-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 838B4A1F10735769722EFC36 /* libPods-KotlinSwift-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -40,17 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* KotlinSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* KotlinSwiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KotlinSwiftTests.m; sourceTree = "<group>"; };
 		06DA524C5E12E81E5002C9DE /* Pods-KotlinSwift-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinSwift-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-KotlinSwift-tvOS/Pods-KotlinSwift-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* KotlinSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KotlinSwift/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = KotlinSwift/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KotlinSwift/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KotlinSwift/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KotlinSwift/main.m; sourceTree = "<group>"; };
 		1A187C22E147099925B3CC43 /* libPods-KotlinSwift-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KotlinSwift-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		250DB73B4CDE7E6B1BDAD335 /* Pods-KotlinSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinSwift.debug.xcconfig"; path = "Target Support Files/Pods-KotlinSwift/Pods-KotlinSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* KotlinSwift-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KotlinSwift-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +52,8 @@
 		7E2AA501DEDE00BEAA88D722 /* Pods-KotlinSwift-KotlinSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinSwift-KotlinSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-KotlinSwift-KotlinSwiftTests/Pods-KotlinSwift-KotlinSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = KotlinSwift/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		838B4A1F10735769722EFC36 /* libPods-KotlinSwift-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KotlinSwift-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8394822625448B5A00A462AE /* KotlinSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KotlinSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		8394822725448B5B00A462AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87E84996EF2FA40C071B0877 /* libPods-KotlinSwift-KotlinSwiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KotlinSwift-KotlinSwiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F22C8B25371D511A8D88DE /* Pods-KotlinSwift-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinSwift-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-KotlinSwift-tvOSTests/Pods-KotlinSwift-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8812DA411355ED674354E32F /* Pods-KotlinSwift-KotlinSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinSwift-KotlinSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-KotlinSwift-KotlinSwiftTests/Pods-KotlinSwift-KotlinSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,13 +120,11 @@
 		13B07FAE1A68108700A75B9A /* KotlinSwift */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				13B07FB71A68108700A75B9A /* main.m */,
+				8394822725448B5B00A462AE /* AppDelegate.swift */,
+				8394822625448B5A00A462AE /* KotlinSwift-Bridging-Header.h */,
 			);
 			name = KotlinSwift;
 			sourceTree = "<group>";
@@ -194,7 +187,6 @@
 				87F22C8B25371D511A8D88DE /* Pods-KotlinSwift-tvOSTests.debug.xcconfig */,
 				37A9F4E67D7B3103D9BE8423 /* Pods-KotlinSwift-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -294,7 +286,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1210;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -375,7 +367,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		18936C795C1A8CCE0523EDA3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -568,8 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				8394822825448B5B00A462AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,8 +568,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8812DA411355ED674354E32F /* Pods-KotlinSwift-KotlinSwiftTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -633,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E2AA501DEDE00BEAA88D722 /* Pods-KotlinSwift-KotlinSwiftTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = KotlinSwiftTests/Info.plist;
@@ -666,6 +657,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = KotlinSwift;
+				SWIFT_OBJC_BRIDGING_HEADER = "KotlinSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -688,6 +680,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = KotlinSwift;
+				SWIFT_OBJC_BRIDGING_HEADER = "KotlinSwift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
